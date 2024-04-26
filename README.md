@@ -18,29 +18,23 @@ Chapter 4: Introduction to Regression
 
 	
 Chapter 5: Multivariate Regression
-
 [ [PDF](Lectures/Chapter5/Chapter5_v1_handout.pdf) | [PDF w/animations](Lectures/Chapter5/Chapter5_v1.pdf) | [TeX](Lectures/Chapter5/Chapter5_v1.tex)]
 
 
 Chapter 6: Panel Data and Difference-in-Differences
-
 [ [PDF](Lectures/Chapter6/Chapter6_v1_handout.pdf) | [PDF w/animations](Lectures/Chapter6/Chapter6_v1.pdf) | [TeX](Lectures/Chapter6/Chapter6_v1.tex)]
 
 
 Chapter 7: Instrumental Variables
-
 [ [PDF](Lectures/Chapter7/Chapter7_v1_handout.pdf) | [PDF w/animations](Lectures/Chapter7/Chapter7_v1.pdf) | [TeX](Lectures/Chapter7/Chapter7_v1.tex)]
 
 
 Chapter 8: Regression Discontinuity
-
 [ [PDF](Lectures/Chapter8/Chapter8_v1_handout.pdf) | [PDF w/animations](Lectures/Chapter8/Chapter8_v1.pdf) | [TeX](Lectures/Chapter8/Chapter8_v1.tex)]
 
 Chapter 9: Bonus applications
-
 [ [PDF](Lectures/Chapter9/Chapter9_v1_handout.pdf) | [PDF w/animations](Lectures/Chapter9/Chapter9_v1.pdf) | [TeX](Lectures/Chapter9/Chapter9_v1.tex)]
 
 
 Review Session
-
 [ [PDF](Lectures/ReviewSession/review_session_handout.pdf) | [PDF w/animations](Lectures/ReviewSession/review_session.pdf) | [TeX](Lectures/ReviewSession/review_session.tex)]
