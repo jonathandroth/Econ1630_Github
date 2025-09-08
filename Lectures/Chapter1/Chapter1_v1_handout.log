@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  2 OCT 2023 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  7 SEP 2025 20:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1390,63 +1390,60 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-47.
+55.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 247.
+ 255.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 247.
+ 255.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 247.
+ 255.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
-47.
+55.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 247.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 255.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 247.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 255.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 247.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 255.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 247.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 255.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 247.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 255.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 247.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 255.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 247.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 255.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <8> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 247.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 255.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <6> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 247.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 255.
 
  [4
 
 ] [5
 
 ]
-Overfull \vbox (12.12215pt too high) detected at line 336
- []
-
 [6
 
 ] [7
@@ -1457,66 +1454,66 @@ Overfull \vbox (12.12215pt too high) detected at line 336
 
 ] [10
 
+] [11
+
 ]
-<dewey-defeats-truman.jpeg, id=80, 602.25pt x 481.8pt>
+<dewey-defeats-truman.jpeg, id=85, 602.25pt x 481.8pt>
 File: dewey-defeats-truman.jpeg Graphic file (type jpg)
 <use dewey-defeats-truman.jpeg>
-Package pdftex.def Info: dewey-defeats-truman.jpeg  used on input line 448.
+Package pdftex.def Info: dewey-defeats-truman.jpeg  used on input line 458.
 (pdftex.def)             Requested size: 239.6057pt x 191.68735pt.
- [11
-
- <./dewey-defeats-truman.jpeg>]
-<selection_bias_xkcd.png, id=87, 251.13824pt x 247.07306pt>
-File: selection_bias_xkcd.png Graphic file (type png)
-<use selection_bias_xkcd.png>
-Package pdftex.def Info: selection_bias_xkcd.png  used on input line 454.
-(pdftex.def)             Requested size: 205.3793pt x 202.0621pt.
  [12
 
- <./selection_bias_xkcd.png (PNG copy)>] [13
+ <./dewey-defeats-truman.jpeg>]
+<selection_bias_xkcd.png, id=92, 251.13824pt x 247.07306pt>
+File: selection_bias_xkcd.png Graphic file (type png)
+<use selection_bias_xkcd.png>
+Package pdftex.def Info: selection_bias_xkcd.png  used on input line 464.
+(pdftex.def)             Requested size: 205.3793pt x 202.0621pt.
+ [13
 
-] [14
+ <./selection_bias_xkcd.png (PNG copy)>] [14
 
 ] [15
 
+] [16
+
 ]
-<BigPicture.jpg, id=109, 1504.62125pt x 846.16125pt>
+<BigPicture.jpg, id=114, 1504.62125pt x 846.16125pt>
 File: BigPicture.jpg Graphic file (type jpg)
 <use BigPicture.jpg>
-Package pdftex.def Info: BigPicture.jpg  used on input line 559.
+Package pdftex.def Info: BigPicture.jpg  used on input line 569.
 (pdftex.def)             Requested size: 410.75339pt x 230.99722pt.
 
-Overfull \hbox (68.45802pt too wide) in paragraph at lines 559--559
+Overfull \hbox (68.45802pt too wide) in paragraph at lines 569--569
 [][]  
  []
 
-[16
+[17
 
- <./BigPicture.jpg>] [17
+ <./BigPicture.jpg>] [18
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 626.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 636.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 626.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 636.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 626.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 636.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 626.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 636.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 626.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 636.
 
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <7.4> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 626.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 636.
 
 
-Overfull \hbox (4.64664pt too wide) in paragraph at lines 626--626
+Overfull \hbox (4.64664pt too wide) in paragraph at lines 636--636
 [] \OMS/ztmcm/m/n/10 ^^@ []$\T1/lmss/m/n/10 .  
  []
 
-[18
-
-] [19
+[19
 
 ] [20
 
@@ -1525,6 +1522,8 @@ Overfull \hbox (4.64664pt too wide) in paragraph at lines 626--626
 ] [22
 
 ] [23
+
+] [24
 
 ]
 \tf@nav=\write6
@@ -1541,8 +1540,8 @@ Package rerunfilecheck Info: File `Chapter1_v1_handout.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29251 strings out of 478994
- 542917 string characters out of 5858184
+ 29253 strings out of 478994
+ 542936 string characters out of 5858184
  844344 words of memory out of 5000000
  45989 multiletter control sequences out of 15000+600000
  492872 words of font info for 127 fonts, out of 8000000 for 9000
@@ -1563,10 +1562,10 @@ msso10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso8.pfb
 ></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
 .pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1095.p
 fb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on Chapter1_v1_handout.pdf (23 pages, 386132 bytes).
+Output written on Chapter1_v1_handout.pdf (24 pages, 388527 bytes).
 PDF statistics:
- 216 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
- 47 named destinations out of 1000 (max. 500000)
+ 222 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
  70 words of extra memory for PDF output out of 10000 (max. 10000000)
 
