@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  9 OCT 2023 20:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  28 SEP 2025 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1157,7 +1157,7 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count357
 \l__pdf_internal_box=\box88
 )
-No file Chapter4_v1_handout.aux.
+(./Chapter4_v1_handout.aux)
 \openout1 = `Chapter4_v1_handout.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 174.
@@ -1178,6 +1178,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 174.
 LaTeX Font Info:    ... okay on input line 174.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 174.
 LaTeX Font Info:    ... okay on input line 174.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1259,6 +1260,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 174.
 LaTeX Info: Redefining \pageref on input line 174.
 LaTeX Info: Redefining \nameref on input line 174.
+ (./Chapter4_v1_handout.out) (./Chapter4_v1_handout.out)
 \@outlinefile=\write5
 \openout5 = `Chapter4_v1_handout.out'.
 
@@ -1374,8 +1376,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 174.
-
-No file Chapter4_v1_handout.nav.
+ (./Chapter4_v1_handout.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 184.
@@ -1547,12 +1548,7 @@ input line 718.
 
 [24
 
- <./fake-sat-with-trend-brown-betas-plus-ses.png>]
-
-LaTeX Warning: Reference `eqn: pop regression' on page 25 undefined on input li
-ne 739.
-
-[25
+ <./fake-sat-with-trend-brown-betas-plus-ses.png>] [25
 
 ] [26
 
@@ -1579,7 +1575,8 @@ Package pdftex.def Info: workadvance-site-overview.png  used on input line 810.
 
 ] [31
 
-] [32
+]
+[32
 
 ]
 <ols1.png, id=218, 449.0376pt x 309.7974pt>
@@ -1611,9 +1608,10 @@ File: ols4.png Graphic file (type png)
 <use ols4.png>
 Package pdftex.def Info: ols4.png  used on input line 924.
 (pdftex.def)             Requested size: 314.32416pt x 216.85669pt.
-[36
+ [36
 
- <./ols4.png>] [37
+ <./ols4.png>]
+[37
 
 ]
 File: fake-sat-with-trend-both-betas.png Graphic file (type png)
@@ -1638,26 +1636,14 @@ Overfull \vbox (0.70511pt too high) detected at line 968
 \openout8 = `Chapter4_v1_handout.snm'.
 
  (./Chapter4_v1_handout.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Chapter4_v1_handout.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Chapter4_v1_handout.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `Chapter4_v1_handout.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29257 strings out of 478994
- 542788 string characters out of 5858184
- 845037 words of memory out of 5000000
- 45956 multiletter control sequences out of 15000+600000
+ 29346 strings out of 478994
+ 543619 string characters out of 5858184
+ 845345 words of memory out of 5000000
+ 46037 multiletter control sequences out of 15000+600000
  501924 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  135i,16n,135p,446b,601s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1677,7 +1663,7 @@ texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/lo
 cal/texlive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive
 /2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf
 -dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Chapter4_v1_handout.pdf (38 pages, 1350409 bytes).
+Output written on Chapter4_v1_handout.pdf (38 pages, 1350075 bytes).
 PDF statistics:
  328 PDF objects out of 1000 (max. 8388607)
  238 compressed objects within 3 object streams

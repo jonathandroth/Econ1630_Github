@@ -850,7 +850,7 @@
 			\pause
 			\item
 			Cross-validation is the basis of modern \textit{machine learning} (ML) methods. \\
-			ML is very powerful, but how to use ML for causal inference is still being worked out
+			ML is very powerful, and recent work has extended ML for causal problems (but beyond scope of this class)
 		\end{itemize}
 		
 	\end{wideitemize}		
@@ -1670,6 +1670,77 @@ $\hat\beta_{DX}$ & -0.0025 & 0.0005
 		\item
 		Similar (but slightly more complicated) asymptotic arguments can be used to test hypotheses on non-linear combinations of coefficients, e.g. $\beta_1 \beta_2 + \beta_3^2$. This can be done using the \texttt{nlcom} command in Stata.
 	\end{wideitemize}
+\end{frame}
+
+
+\begin{frame}{More Evidence - Mountjoy and Hickman (2021)}
+	\begin{itemize}
+		\item Mountjoy and Hickman do a modern version of Dale and Krueger using data on all 4-year public universities in Texas
+		
+		\item
+		Sample includes all students graduating from HS in TX from 1999-2008 
+		
+		\item
+		Very large sample allows them to control for exact set of colleges applied/admitted to, and to estimate effects for each university (422K students attend 4-year college; 126K admitted to multiple schools w/matches)
+		
+		\item
+		Only 55\% enroll in the most selective school they were admitted to
+				
+		
+		%Fig 15 - correlates with VA 
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\includegraphics[width = 0.8\linewidth]{mountjoy-colleges}
+\end{frame}
+
+\begin{frame}
+	\includegraphics[width = 0.7\linewidth]{mountjoy-earnings}
+
+\begin{itemize}
+	\item 
+	There are some significant earnings diffs across colleges, but relatively small
+	
+	\item
+	More prestige does not necessarily mean higher earnings (UT-Austin vs Permian Basin)
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{What are the higher value-added colleges doing}
+	Higher college completion, higher STEM completion, higher employment in oil \& gas \\
+	\includegraphics[width = 0.5 \linewidth]{mountjoy-mechs}
+\end{frame}
+
+
+\begin{frame}{Chetty, Deming, Friedman (2025)} 
+	
+	\begin{wideitemize}
+		\item
+		Combine admissions data from several Ivy+ schools (Ivies, Stanford, MIT, Chicago, Duke) w/tax data on earnings
+		
+		\item
+		Compare students on the waitlist to Ivy+ that get admitted versus not 
+		\begin{itemize}
+			\item 
+			Admission off waitlist at one Ivy+ doesn't predict outcome at others
+		\end{itemize}	
+		\item
+		Like Dale and Krueger, they don't find much effect on \emph{average} earnings
+		
+		\item
+		But they do find impacts on ``elite'' outcomes --- earnings in top 1\%, working at ``elite firm'', attending ``elite'' gradaute school
+	\end{wideitemize}
+	
+\end{frame}
+
+\begin{frame}
+	\includegraphics[width = 0.8\linewidth]{chetty-top1}
+\end{frame}
+
+\begin{frame}
+	\includegraphics[width = 0.8\linewidth]{chetty-gradschool}
 \end{frame}
 
 	\begin{frame}{Outline}
