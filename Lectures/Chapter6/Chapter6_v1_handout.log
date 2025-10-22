@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  2 NOV 2023 08:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  19 OCT 2025 18:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1172,7 +1172,7 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count363
 \l__pdf_internal_box=\box88
 )
-No file Chapter6_v1_handout.aux.
+(./Chapter6_v1_handout.aux)
 \openout1 = `Chapter6_v1_handout.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 180.
@@ -1193,6 +1193,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 180.
 LaTeX Font Info:    ... okay on input line 180.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 180.
 LaTeX Font Info:    ... okay on input line 180.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1274,6 +1275,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 180.
 LaTeX Info: Redefining \pageref on input line 180.
 LaTeX Info: Redefining \nameref on input line 180.
+ (./Chapter6_v1_handout.out) (./Chapter6_v1_handout.out)
 \@outlinefile=\write5
 \openout5 = `Chapter6_v1_handout.out'.
 
@@ -1390,8 +1392,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 180.
-
-No file Chapter6_v1_handout.nav.
+ (./Chapter6_v1_handout.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 190.
@@ -1688,20 +1689,14 @@ Overfull \vbox (13.68477pt too high) detected at line 926
 \openout8 = `Chapter6_v1_handout.snm'.
 
  (./Chapter6_v1_handout.aux)
-
-Package rerunfilecheck Warning: File `Chapter6_v1_handout.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Chapter6_v1_handout.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `Chapter6_v1_handout.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29471 strings out of 478994
- 546888 string characters out of 5858184
- 853768 words of memory out of 5000000
- 46184 multiletter control sequences out of 15000+600000
+ 29560 strings out of 478994
+ 547719 string characters out of 5858184
+ 854052 words of memory out of 5000000
+ 46265 multiletter control sequences out of 15000+600000
  493349 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  135i,17n,135p,446b,698s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1719,7 +1714,7 @@ ublic/lm/lmssbo10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm
 .pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm/lmsso8.pfb></usr
 /local/texlive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texl
 ive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on Chapter6_v1_handout.pdf (38 pages, 1692002 bytes).
+Output written on Chapter6_v1_handout.pdf (38 pages, 1692152 bytes).
 PDF statistics:
  328 PDF objects out of 1000 (max. 8388607)
  232 compressed objects within 3 object streams

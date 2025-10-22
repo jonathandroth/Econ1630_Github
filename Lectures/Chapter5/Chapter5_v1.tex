@@ -1191,7 +1191,7 @@
 	\begin{wideitemize}
 		\item
 		Thus, the (population) regression $Y_i = \tilde\beta_0 + \tilde\beta_D D_i + \epsilon_i$ yields
-		$$\tilde{\beta}=\beta_D+\beta_1\frac{Cov(X_{i1},D_i)}{Var(D_i)}$$
+		$$\tilde{\beta}_D=\beta_D+\beta_1\frac{Cov(X_{i1},D_i)}{Var(D_i)}$$
 		\noindent where $\beta_D$ is the coefficient we wanted (our approx to the ATE)
 				
 		\pause
@@ -1210,7 +1210,7 @@
 		So $\gamma_D$ is large when $D_i$ is strongly correlated with $X_{i1}$	
 		\pause
 		\item
-		Hence $\tilde\beta$ will be very biased for $\beta_D$ if the omitted variable $X_{i1}$ is both highly correlated with $Y_i$ and highly correlated with $D_i$\smallskip\pause{}
+		Hence $\tilde\beta_D$ will be very biased for $\beta_D$ if the omitted variable $X_{i1}$ is both highly correlated with $Y_i$ and highly correlated with $D_i$\smallskip\pause{}
 		\begin{itemize}
 		\item On the flip side, if either $\beta_1=0$ or $\gamma_D=$ then we have no OVB!
 		\end{itemize}
@@ -1231,13 +1231,13 @@
 	
 	\noindent are related by the OVB formula
 	
-	$$\tilde{\beta}=\beta_D+\beta_1\frac{Cov(X_{i1},D_i)}{Var(D_i)}$$
+	$$\tilde{\beta}_D=\beta_D+\beta_1\frac{Cov(X_{i1},D_i)}{Var(D_i)}$$
 	
 	\pause
 	\item
-	It turns out that the OLS estimates for these two regressions have the same relationship
+	It turns out that the OLS estimates for these two regressions have the same relationship (just replace pop means w/sample means in all formulas)
 	
-	$$\hat{\tilde{\beta}}= \hat{\beta}_D+ \hat{\beta}_1\frac{\widehat{Cov}(X_{i1},D_i)}{\widehat{Var}(D_i)}$$
+	$$\hat{\tilde{\beta}}_D= \hat{\beta}_D+ \hat{\beta}_1\frac{\widehat{Cov}(X_{i1},D_i)}{\widehat{Var}(D_i)}$$
 
 	\end{wideitemize}
 \end{frame}
@@ -1316,7 +1316,7 @@
 		Results excluding SAT score:
 		\begin{tabular}{lrr}
 			Variable & Coefficient & SE \\ \hline
-			Private school ($\tilde\beta$) & 0.135 & 0.055 \\
+			Private school ($\tilde\beta_D$) & 0.135 & 0.055 \\
 			Constant & [...] & [...]
 		\end{tabular}
 		
@@ -1348,19 +1348,15 @@
 	
 	\pause
 	\item
-	But since we don't observe $X_{i1}$, we instead estimate the regression $Y_i = \tilde\beta_0 + \tilde\beta_D + \tilde\beta_1 X_1 + \epsilon_i$
+	But since we don't observe $X_{i1}$, we instead estimate the regression $Y_i = \tilde\beta_0 + \tilde\beta_D D_i + \tilde\beta_1 X_{i1} + \epsilon_i$
 	
 	\pause
 	\item
-	How does $\tilde\beta_D$ relate to $\beta_D$? 
-
-	\pause
-	\item
-	Answer: $$\tilde\beta_D= \beta_D+ \beta_2 \gamma_D$$ 
+	How does $\tilde\beta_D$ relate to $\beta_D$? \pause Answer: $$\tilde\beta_D= \beta_D+ \beta_2 \gamma_D$$ 
 	
 	\noindent where $\gamma_D$ is the coefficient from the regression $$X_{i2} = \gamma_0 + \gamma_D D_i + \gamma_1 X_{i1} + u_i$$ 
 
-	\item This is similar to the OVB formula we had from before!
+	\item This is similar to the OVB formula we had from before, except everything controls for $X_{i1}$
 \end{wideitemize}
 	
 \end{frame}
@@ -1828,15 +1824,15 @@ $\hat\beta_{DX}$ & -0.0025 & 0.0005
 	
 	\pause
 	\item
-	By the same argument, if we test the null for $k$ independent groups, and there is no true effect, we will reject the null with probability \pause $1 - 0.95^k$
+	By the same argument, if we test the null for $K$ independent groups, and there is no true effect, we will reject the null with probability \pause $1 - 0.95^K$
 \end{wideitemize}
 \end{frame}
 
 
 \begin{frame}
-Probability of finding at least one subgroup with a signficant effect with $k$ independent groups (and zero treatment effect):	\\
+Probability of finding at least one subgroup with a significant effect with $K$ independent groups (and zero treatment effect):	\\
 		\begin{tabular}{rr}
-		$k$& $1-0.95^k$ \\ \hline 
+		$K$& $1-0.95^K$ \\ \hline 
 		1 & 0.05 \\
 		2 & 0.0975 \\ \pause{}
 		3 & \pause{} 0.1426 \\
@@ -1862,7 +1858,7 @@ Probability of finding at least one subgroup with a signficant effect with $k$ i
 	
 	\pause
 	\item
-	I simulate this fake treament 100 times, and estimate 
+	I simulate this fake treament 1000 times, and estimate 
 	
 	\begin{enumerate}
 		\item 
@@ -1892,20 +1888,20 @@ Probability of finding at least one subgroup with a signficant effect with $k$ i
 	
 	\only<2>{	
 		\begin{wideitemizeshort}
-			\item When testing the pooled effect across all states, we find a significant effect 5\% of the time
+			\item When testing the pooled effect across all states, we find a significant effect 6\% of the time
 		\end{wideitemizeshort}
 		}
 	
 		\only<4>{	
 		\begin{wideitemizeshort}
-			\item When testing the pooled effect across all states, we find a significant effect 19\% of the time
+			\item When testing the pooled effect across all states, we find a significant effect 41\% of the time
 		\end{wideitemizeshort}
 	}
 	
 	
 	\only<6>{	
 		\begin{wideitemizeshort}
-			\item When testing the pooled effect across all states, we find a significant effect 90\% of the time
+			\item When testing the pooled effect across all states, we find a significant effect 93\% of the time
 		\end{wideitemizeshort}
 	}
 	
@@ -1918,12 +1914,12 @@ Probability of finding at least one subgroup with a signficant effect with $k$ i
 	
 	\pause
 	\item
-	Instead of testing each of the $k$ individual hypotheses at the 5\% level, we test each one at the $5/k$\% level.
+	Instead of testing each of the $K$ individual hypotheses at the 5\% level, we test each one at the $5/K$\% level.
 	
 	\pause
 	\item
 	Then 
-	$$P( N_{sig} > 0  ) \leq \sum_k P( \text{k is signficant}  ) = k (0.05/k) = 0.05 $$
+	$$P( N_{sig} > 0  ) \leq \sum_k P( \text{k is significant}  ) = K (0.05/K) = 0.05 $$
 	
 	\pause
 	\item
@@ -1942,9 +1938,9 @@ Probability of finding at least one subgroup with a signficant effect with $k$ i
 	Probability of rejecting at least one hypothesis without and with Bonferroni correction \\
 	\begin{tabular}{lrr}
 		Simulation & Uncorrected & Corrected \\ \hline
-		Pooled & 0.05 & 0.05 \\
-		10 States & 0.19 &  0.00 \\
-		50 States & 0.90 & 0.04
+		Pooled & 0.06 & 0.05 \\
+		10 States & 0.41 &  0.05 \\
+		50 States & 0.93 & 0.04
 	\end{tabular}
 \end{frame}
 
@@ -1969,40 +1965,115 @@ Probability of finding at least one subgroup with a signficant effect with $k$ i
 	\end{wideitemize}	
 \end{frame}
 
-\begin{frame}
-	\begin{wideitemize}
-	\item
-	We showed that $\sqrt{N} (\bm{\hat\beta} - \bm{\beta}) \rightarrow_d \mathrm{N}(\bm{0}, \bm{\Sigma})$
-	
-	\item
-	From the continuous mapping theorem, we get that $X = \sqrt{N} \bm{\hat\Sigma}^{-\frac{1}{2}} (\bm{\hat\beta} - \bm{\beta}) \rightarrow_d \pause{} \mathrm{N}(\bm{0}, \bm{I})$.
-	
-	
-	\item
-	Applying the continuous mapping theorem again, we get that 
-	$$F = \sum_k X_k^2 \rightarrow \sum_k Z_k^2, \text{ where } Z \sim \mathrm{N}(\bm{0}, \bm{I})$$
-	
-	\pause
-	\item
-	The sum of $k$ independent normals squared is called a \textit{chi-squared} distribution with $k$ degrees of freedom, denoted $\chi^2(k)$.
-	
-	\pause
-	\item
-	We can compare $F$ to the 95th percentile of the $\chi^2(k)$ distribution, and reject if it is larger. 
-	
-	\pause
-	\item
-	This is often called an \textit{F-test}.
-	\begin{itemize}
-		\item
-		Sometimes the critical values use what's called an $F$-distribution, which is a slight modification to the $\chi^2(k)$ that corrects for small sample sizes
-	\end{itemize}	
-	\end{wideitemize}	
-\end{frame}
 
 \begin{frame}
-	\includegraphics[width = 0.7\linewidth]{logwages-quadratic}
+	\begin{wideitemize}
+		\item
+		Let $\hat{t}_k$ be the t-statistic for null hypothesis $k$. Under null hypothesis $k$, we have that $\hat{t}_k \to_d \pause N(0,1)$.
+		
+		\item
+		If the samples for each hypothesis are independent, then if all $K$ null hypotheses are satisfied, we have $(\hat{t}_1,\ldots,\hat{t}_K)' \to_d N(0, \mathbf{I})$
+		
+		\item
+		Consider the \emph{$F$-statistic}: $F = \sum_k \hat{t}_k^2$. \pause By the continuous mapping theorem, if all $K$ null hypotheses are satisifed
+		
+		$$F \to_d  \sum_k Z_k^2 \text{ for } Z \sim N(0,\mathbf{I})$$
+		This is called a \emph{chi-squared} ($\chi^2$) distribution with $K$ degrees of freedom 
+		
+		\item
+		We can therefore test that all $K$ null  hypotheses are satisfied by comparing $F$ to the 95th percentile of the chi-squared dist (say $c$). If $F>c$, we reject that all hypotheses are valid. 
+		
+		\item
+		This approach is called an $F$\emph{-test}.
+				
+	\end{wideitemize}
 \end{frame}
+
+
+
+%\begin{frame}
+%	\begin{wideitemize}
+%	\item
+%	We showed that $\sqrt{N} (\bm{\hat\beta} - \bm{\beta}) \rightarrow_d \mathrm{N}(\bm{0}, \bm{\Sigma})$
+%	
+%	\item
+%	From the continuous mapping theorem, we get that $X = \sqrt{N} \bm{\hat\Sigma}^{-\frac{1}{2}} (\bm{\hat\beta} - \bm{\beta}) \rightarrow_d \pause{} \mathrm{N}(\bm{0}, \bm{I})$.
+%	
+%	
+%	\item
+%	Applying the continuous mapping theorem again, we get that 
+%	$$F = \sum_k X_k^2 \rightarrow \sum_k Z_k^2, \text{ where } Z \sim \mathrm{N}(\bm{0}, \bm{I})$$
+%	
+%	\pause
+%	\item
+%	The sum of $k$ independent normals squared is called a \textit{chi-squared} distribution with $k$ degrees of freedom, denoted $\chi^2(k)$.
+%	
+%	\pause
+%	\item
+%	We can compare $F$ to the 95th percentile of the $\chi^2(k)$ distribution, and reject if it is larger. 
+%	
+%	\pause
+%	\item
+%	This is often called an \textit{F-test}.
+%	\begin{itemize}
+%		\item
+%		Sometimes the critical values use what's called an $F$-distribution, which is a slight modification to the $\chi^2(k)$ that corrects for small sample sizes
+%	\end{itemize}	
+%	\end{wideitemize}	
+%\end{frame}
+
+\begin{frame}
+	Probability of rejecting the joint null that the treatment effect is zero for all states \\ \vspace{1cm}
+	\begin{tabular}{lrr}
+		Simulation & Individual tests & Joint test \\ \hline
+		Pooled & 0.06 & 0.06 \\
+		10 States & 0.41 &  0.04 \\
+		50 States & 0.93 & 0.05
+	\end{tabular}
+\end{frame}
+
+
+\begin{frame}{$F$-tests can have better power than Bonferroni}
+	\begin{wideitemize}
+		\item
+		Consider modified simulation design where we add \$6 to wages if you get our fake treatment
+		
+		\item
+		Using Bonferroni, we find a significant effect in at least 1 state only 39\% of the time. On the other hand, we reject the joint null 60\% of the time. 
+		
+		\pause
+		\item
+		Here's an example from one simulation 
+		
+		\includegraphics[width = 0.5 \linewidth]{bonf-adj-estimates}\\
+		No state-level effects are significant after Bonf adjustment. But $p$-value for joint test is 0.004. 
+	\end{wideitemize}
+\end{frame}
+
+
+\begin{frame}{Testing multiple regression coefficients}
+
+\begin{wideitemize}
+	\item
+	Sometimes we may want to test the null hypothesis that multiple regression coefficients are equal to zero (e.g. both linear and quadratic terms are zero in our earnings vs age example)
+	
+	\begin{center}
+	\includegraphics[width = 0.3\linewidth]{logwages-quadratic} 
+	\end{center}
+	
+	\item
+	We can also use an $F$-test for this problem, we just need to account for the correlation in the coefficients
+	
+	\item
+	We showed in earlier classes that  $\sqrt{N}(\hat\beta - \beta_0) \to_d N(0,\boldsymbol{\Sigma})$. To test the null $H_0: \beta = \beta_0$, we then use  $F = \sqrt{N} \hat{\boldsymbol{\Sigma}}^{-\frac{1}{2}} (\hat\beta - \beta_0)$ 
+	
+	\item
+	This is implemented with the $\texttt{test}$ function in Stata. E.g., $\texttt{test age agesq}$ tests the null that the coefficients on age and age-squared are both zero (so wages don't depend on age)
+\end{wideitemize}	
+	
+
+\end{frame}
+
 
 \begin{frame}
 	\includegraphics[width = 0.7\linewidth]{f-test}
