@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  1 OCT 2025 08:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  22 OCT 2025 13:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1739,7 +1739,7 @@ Overfull \vbox (12.3051pt too high) detected at line 1186
 ] [54
 
 ]
-Overfull \vbox (1.62143pt too high) detected at line 1451
+Overfull \vbox (1.62143pt too high) detected at line 1447
  []
 
 [55
@@ -1747,7 +1747,7 @@ Overfull \vbox (1.62143pt too high) detected at line 1451
 ] [56
 
 ]
-Overfull \vbox (3.86855pt too high) detected at line 1519
+Overfull \vbox (3.86855pt too high) detected at line 1515
  []
 
 [57
@@ -1758,14 +1758,14 @@ Overfull \vbox (3.86855pt too high) detected at line 1519
 <dk-interactions.png, id=369, 823.075pt x 590.205pt>
 File: dk-interactions.png Graphic file (type png)
 <use dk-interactions.png>
-Package pdftex.def Info: dk-interactions.png  used on input line 1556.
+Package pdftex.def Info: dk-interactions.png  used on input line 1552.
 (pdftex.def)             Requested size: 172.24266pt x 123.50542pt.
  [59
 
  <./dk-interactions.png>]
 File: dk-interactions.png Graphic file (type png)
 <use dk-interactions.png>
-Package pdftex.def Info: dk-interactions.png  used on input line 1570.
+Package pdftex.def Info: dk-interactions.png  used on input line 1566.
 (pdftex.def)             Requested size: 172.24266pt x 123.50542pt.
  [60
 
@@ -1776,14 +1776,14 @@ Package pdftex.def Info: dk-interactions.png  used on input line 1570.
 ] [63
 
 ]
-Overfull \vbox (7.39404pt too high) detected at line 1660
+Overfull \vbox (7.39404pt too high) detected at line 1656
  []
 
 [64
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-673.
+669.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [65
@@ -1791,65 +1791,128 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ]
 [66
 
-] [67
+]
+<mountjoy-colleges.pdf, id=413, 979.66pt x 667.49374pt>
+File: mountjoy-colleges.pdf Graphic file (type pdf)
+<use mountjoy-colleges.pdf>
+Package pdftex.def Info: mountjoy-colleges.pdf  used on input line 1692.
+(pdftex.def)             Requested size: 275.58931pt x 187.77289pt.
+ [67
 
-] [68
+ <./mountjoy-colleges.pdf>]
+<mountjoy-earnings.pdf, id=424, 1042.89626pt x 725.71124pt>
+File: mountjoy-earnings.pdf Graphic file (type pdf)
+<use mountjoy-earnings.pdf>
+Package pdftex.def Info: mountjoy-earnings.pdf  used on input line 1704.
+(pdftex.def)             Requested size: 241.13867pt x 167.79594pt.
+ [68
 
-] [69
+ <./mountjoy-earnings.pdf>]
+<mountjoy-mechs.pdf, id=434, 852.18375pt x 908.39375pt>
+File: mountjoy-mechs.pdf Graphic file (type pdf)
+<use mountjoy-mechs.pdf>
+Package pdftex.def Info: mountjoy-mechs.pdf  used on input line 1710.
+(pdftex.def)             Requested size: 172.24266pt x 183.6022pt.
+ [69
 
-] [70
-
-] [71
+ <./mountjoy-mechs.pdf>] [70
 
 ]
-<multiple-hypothesis-testing-pooled-only.png, id=439, 1806.75pt x 1204.5pt>
-File: multiple-hypothesis-testing-pooled-only.png Graphic file (type png)
-<use multiple-hypothesis-testing-pooled-only.png>
-Package pdftex.def Info: multiple-hypothesis-testing-pooled-only.png  used on i
-nput line 1841.
-(pdftex.def)             Requested size: 275.58931pt x 183.71814pt.
-<multiple-hypothesis-testing-pooled-plus-10.png, id=440, 1806.75pt x 1204.5pt>
-File: multiple-hypothesis-testing-pooled-plus-10.png Graphic file (type png)
-<use multiple-hypothesis-testing-pooled-plus-10.png>
-Package pdftex.def Info: multiple-hypothesis-testing-pooled-plus-10.png  used o
-n input line 1841.
-(pdftex.def)             Requested size: 275.58931pt x 183.71814pt.
-<multiple-hypothesis-testing-all.png, id=441, 1806.75pt x 1204.5pt>
-File: multiple-hypothesis-testing-all.png Graphic file (type png)
-<use multiple-hypothesis-testing-all.png>
-Package pdftex.def Info: multiple-hypothesis-testing-all.png  used on input lin
-e 1841.
-(pdftex.def)             Requested size: 275.58931pt x 183.71814pt.
+<chetty-top1.pdf, id=449, 605.26125pt x 370.38374pt>
+File: chetty-top1.pdf Graphic file (type pdf)
+<use chetty-top1.pdf>
+Package pdftex.def Info: chetty-top1.pdf  used on input line 1736.
+(pdftex.def)             Requested size: 275.58931pt x 168.64354pt.
+ [71
 
-Overfull \vbox (376.82513pt too high) detected at line 1841
- []
+ <./chetty-top1.pdf>]
+<chetty-gradschool.pdf, id=459, 893.3375pt x 552.0625pt>
+File: chetty-gradschool.pdf Graphic file (type pdf)
+<use chetty-gradschool.pdf>
+Package pdftex.def Info: chetty-gradschool.pdf  used on input line 1740.
+(pdftex.def)             Requested size: 275.58931pt x 170.31207pt.
+ [72
 
-[72
-
- <./multiple-hypothesis-testing-pooled-only.png> <./multiple-hypothesis-testing
--pooled-plus-10.png> <./multiple-hypothesis-testing-all.png>] [73
+ <./chetty-gradschool.pdf>]
+[73
 
 ] [74
 
-]
-[75
+] [75
 
 ] [76
 
-]
-File: logwages-quadratic.png Graphic file (type png)
-<use logwages-quadratic.png>
-Package pdftex.def Info: logwages-quadratic.png  used on input line 1934.
-(pdftex.def)             Requested size: 241.13867pt x 175.40233pt.
- [77
+] [77
+
+] [78
 
 ]
-<f-test.png, id=477, 1416.29124pt x 1014.79124pt>
+<multiple-hypothesis-testing-pooled-only.png, id=501, 433.62pt x 289.08pt>
+File: multiple-hypothesis-testing-pooled-only.png Graphic file (type png)
+<use multiple-hypothesis-testing-pooled-only.png>
+Package pdftex.def Info: multiple-hypothesis-testing-pooled-only.png  used on i
+nput line 1908.
+(pdftex.def)             Requested size: 275.58931pt x 183.73578pt.
+<multiple-hypothesis-testing-pooled-plus-10.png, id=502, 433.62pt x 289.08pt>
+File: multiple-hypothesis-testing-pooled-plus-10.png Graphic file (type png)
+<use multiple-hypothesis-testing-pooled-plus-10.png>
+Package pdftex.def Info: multiple-hypothesis-testing-pooled-plus-10.png  used o
+n input line 1908.
+(pdftex.def)             Requested size: 275.58931pt x 183.73578pt.
+<multiple-hypothesis-testing-all.png, id=503, 433.62pt x 289.08pt>
+File: multiple-hypothesis-testing-all.png Graphic file (type png)
+<use multiple-hypothesis-testing-all.png>
+Package pdftex.def Info: multiple-hypothesis-testing-all.png  used on input lin
+e 1908.
+(pdftex.def)             Requested size: 275.58931pt x 183.73578pt.
+
+Overfull \vbox (376.87805pt too high) detected at line 1908
+ []
+
+[79
+
+ <./multiple-hypothesis-testing-pooled-only.png> <./multiple-hypothesis-testing
+-pooled-plus-10.png> <./multiple-hypothesis-testing-all.png>] [80
+
+] [81
+
+]
+[82
+
+] [83
+
+] [84
+
+]
+<bonf-adj-estimates.png, id=535, 433.62pt x 289.08pt>
+File: bonf-adj-estimates.png Graphic file (type png)
+<use bonf-adj-estimates.png>
+Package pdftex.def Info: bonf-adj-estimates.png  used on input line 2051.
+(pdftex.def)             Requested size: 161.29263pt x 107.52693pt.
+
+Overfull \vbox (2.91623pt too high) detected at line 2051
+ []
+
+[85
+
+ <./bonf-adj-estimates.png>]
+File: logwages-quadratic.png Graphic file (type png)
+<use logwages-quadratic.png>
+Package pdftex.def Info: logwages-quadratic.png  used on input line 2075.
+(pdftex.def)             Requested size: 96.77657pt x 70.39374pt.
+
+Overfull \vbox (9.54533pt too high) detected at line 2075
+ []
+
+[86
+
+]
+<f-test.png, id=548, 1416.29124pt x 1014.79124pt>
 File: f-test.png Graphic file (type png)
 <use f-test.png>
-Package pdftex.def Info: f-test.png  used on input line 1938.
+Package pdftex.def Info: f-test.png  used on input line 2080.
 (pdftex.def)             Requested size: 241.13867pt x 172.77547pt.
- [78
+ [87
 
  <./f-test.png>]
 \tf@nav=\write6
@@ -1866,11 +1929,11 @@ Package rerunfilecheck Info: File `Chapter5_v1_handout.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29890 strings out of 478994
- 552754 string characters out of 5858184
+ 29948 strings out of 478994
+ 553923 string characters out of 5858184
  851105 words of memory out of 5000000
- 46493 multiletter control sequences out of 15000+600000
- 565642 words of font info for 195 fonts, out of 8000000 for 9000
+ 46532 multiletter control sequences out of 15000+600000
+ 566268 words of font info for 197 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  135i,14n,135p,446b,680s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
@@ -1896,10 +1959,10 @@ amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
 lic/cm-super/sftt1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/s
 ymbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.
 pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Chapter5_v1_handout.pdf (78 pages, 2230817 bytes).
+Output written on Chapter5_v1_handout.pdf (87 pages, 3130725 bytes).
 PDF statistics:
- 594 PDF objects out of 1000 (max. 8388607)
- 441 compressed objects within 5 object streams
- 157 named destinations out of 1000 (max. 500000)
- 150 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 668 PDF objects out of 1000 (max. 8388607)
+ 492 compressed objects within 5 object streams
+ 175 named destinations out of 1000 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
