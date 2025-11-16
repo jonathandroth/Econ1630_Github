@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  10 NOV 2023 09:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  11 NOV 2025 21:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1180,7 +1180,7 @@ File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count363
 \l__pdf_internal_box=\box88
 )
-No file Chapter7_v1_handout.aux.
+(./Chapter7_v1_handout.aux)
 \openout1 = `Chapter7_v1_handout.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 181.
@@ -1201,6 +1201,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 181.
 LaTeX Font Info:    ... okay on input line 181.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 181.
 LaTeX Font Info:    ... okay on input line 181.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1282,6 +1283,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 181.
 LaTeX Info: Redefining \pageref on input line 181.
 LaTeX Info: Redefining \nameref on input line 181.
+ (./Chapter7_v1_handout.out) (./Chapter7_v1_handout.out)
 \@outlinefile=\write5
 \openout5 = `Chapter7_v1_handout.out'.
 
@@ -1389,7 +1391,7 @@ Package caption Info: End \AtBeginDocument code.
  ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 181.
 
-No file Chapter7_v1_handout.nav.
+(./Chapter7_v1_handout.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 191.
@@ -1497,13 +1499,13 @@ File: dags/Slide2.png Graphic file (type png)
 <use dags/Slide2.png>
 Package pdftex.def Info: dags/Slide2.png  used on input line 520.
 (pdftex.def)             Requested size: 172.24266pt x 122.63051pt.
-<dags/Slide3.png, id=98, 441.36322pt x 201.96884pt>
+<dags/Slide3.png, id=98, 617.30624pt x 291.0875pt>
 File: dags/Slide3.png Graphic file (type png)
 <use dags/Slide3.png>
 Package pdftex.def Info: dags/Slide3.png  used on input line 520.
-(pdftex.def)             Requested size: 172.24266pt x 78.81683pt.
+(pdftex.def)             Requested size: 172.24266pt x 81.21967pt.
 
-Overfull \vbox (79.11584pt too high) detected at line 520
+Overfull \vbox (81.51868pt too high) detected at line 520
  []
 
 [14
@@ -1542,12 +1544,7 @@ Overfull \hbox (18.46236pt too wide) detected at line 653
 
 ] [24
 
-]
-
-LaTeX Warning: Reference `eqn: fs w covariates' on page 25 undefined on input l
-ine 824.
-
-[25
+] [25
 
 ] [26
 
@@ -1566,7 +1563,8 @@ File: finkelstein-results-depression.png Graphic file (type png)
 Package pdftex.def Info: finkelstein-results-depression.png  used on input line
  854.
 (pdftex.def)             Requested size: 310.0347pt x 201.86082pt.
- [28
+
+[28
 
  <./finkelstein-results-depression.png>] [29
 
@@ -1598,7 +1596,8 @@ Package pdftex.def Info: ak-first-stage.png  used on input line 950.
 (pdftex.def)             Requested size: 310.0347pt x 145.8157pt.
  [34
 
- <./ak-first-stage.png>] [35
+ <./ak-first-stage.png>]
+[35
 
 ]
 <qob-characteristics.png, id=233, 2710.125pt x 1804.7425pt>
@@ -1652,7 +1651,8 @@ File: angrist-first-stage.png Graphic file (type png)
 <use angrist-first-stage.png>
 Package pdftex.def Info: angrist-first-stage.png  used on input line 1178.
 (pdftex.def)             Requested size: 241.13867pt x 154.64413pt.
- [47
+
+[47
 
  <./angrist-first-stage.png>]
 <angrist-wald.png, id=305, 1020.81375pt x 798.985pt>
@@ -1685,89 +1685,135 @@ Package pdftex.def Info: angrist-2sls.png  used on input line 1253.
  [53
 
  <./angrist-2sls.png>]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-281.
- (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [54
+Overfull \vbox (6.87544pt too high) detected at line 1281
+ []
 
-]
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 13
-03.
+[54
 
-(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
-File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) [55
+] [55
 
 ] [56
 
 ]
+<my-first-stage.pdf, id=360, 1078.0275pt x 701.62125pt>
+File: my-first-stage.pdf Graphic file (type pdf)
+<use my-first-stage.pdf>
+Package pdftex.def Info: my-first-stage.pdf  used on input line 1318.
+(pdftex.def)             Requested size: 310.0347pt x 201.78412pt.
+
+Overfull \vbox (7.04425pt too high) detected at line 1318
+ []
+
 [57
 
-]
-<fs-strong.png, id=368, 1204.5pt x 1204.5pt>
-File: fs-strong.png Graphic file (type png)
-<use fs-strong.png>
-Package pdftex.def Info: fs-strong.png  used on input line 1358.
-(pdftex.def)             Requested size: 155.01735pt x 155.00989pt.
-<iv-strong.png, id=369, 1204.5pt x 1204.5pt>
-File: iv-strong.png Graphic file (type png)
-<use iv-strong.png>
-Package pdftex.def Info: iv-strong.png  used on input line 1358.
-(pdftex.def)             Requested size: 155.01735pt x 155.00989pt.
+ <./my-first-stage.pdf>]
+<my-balance.pdf, id=370, 1055.945pt x 350.30875pt>
+File: my-balance.pdf Graphic file (type pdf)
+<use my-balance.pdf>
+Package pdftex.def Info: my-balance.pdf  used on input line 1327.
+(pdftex.def)             Requested size: 275.58931pt x 91.42557pt.
  [58
 
- <./fs-strong.png> <./iv-strong.png>]
-<fs-medium.png, id=377, 1204.5pt x 1204.5pt>
-File: fs-medium.png Graphic file (type png)
-<use fs-medium.png>
-Package pdftex.def Info: fs-medium.png  used on input line 1368.
-(pdftex.def)             Requested size: 155.01735pt x 155.00989pt.
-<iv-medium.png, id=378, 1204.5pt x 1204.5pt>
-File: iv-medium.png Graphic file (type png)
-<use iv-medium.png>
-Package pdftex.def Info: iv-medium.png  used on input line 1368.
-(pdftex.def)             Requested size: 155.01735pt x 155.00989pt.
+ <./my-balance.pdf>]
+<my-satellite.png, id=380, 932.48375pt x 564.1075pt>
+File: my-satellite.png Graphic file (type png)
+<use my-satellite.png>
+Package pdftex.def Info: my-satellite.png  used on input line 1335.
+(pdftex.def)             Requested size: 241.13867pt x 145.87259pt.
  [59
 
+ <./my-satellite.png>]
+<my-iv.png, id=387, 1088.065pt x 446.66875pt>
+File: my-iv.png Graphic file (type png)
+<use my-iv.png>
+Package pdftex.def Info: my-iv.png  used on input line 1344.
+(pdftex.def)             Requested size: 310.0347pt x 127.27464pt.
+
+[60
+
+ <./my-iv.png>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+371.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [61
+
+]
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 13
+93.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+) [62
+
+]
+[63
+
+] [64
+
+]
+<fs-strong.png, id=418, 1204.5pt x 1204.5pt>
+File: fs-strong.png Graphic file (type png)
+<use fs-strong.png>
+Package pdftex.def Info: fs-strong.png  used on input line 1448.
+(pdftex.def)             Requested size: 155.01735pt x 155.00989pt.
+<iv-strong.png, id=419, 1204.5pt x 1204.5pt>
+File: iv-strong.png Graphic file (type png)
+<use iv-strong.png>
+Package pdftex.def Info: iv-strong.png  used on input line 1448.
+(pdftex.def)             Requested size: 155.01735pt x 155.00989pt.
+ [65
+
+ <./fs-strong.png> <./iv-strong.png>]
+<fs-medium.png, id=427, 1204.5pt x 1204.5pt>
+File: fs-medium.png Graphic file (type png)
+<use fs-medium.png>
+Package pdftex.def Info: fs-medium.png  used on input line 1458.
+(pdftex.def)             Requested size: 155.01735pt x 155.00989pt.
+<iv-medium.png, id=428, 1204.5pt x 1204.5pt>
+File: iv-medium.png Graphic file (type png)
+<use iv-medium.png>
+Package pdftex.def Info: iv-medium.png  used on input line 1458.
+(pdftex.def)             Requested size: 155.01735pt x 155.00989pt.
+ [66
+
  <./fs-medium.png> <./iv-medium.png>]
-<fs-weak.png, id=386, 1204.5pt x 1204.5pt>
+<fs-weak.png, id=436, 1204.5pt x 1204.5pt>
 File: fs-weak.png Graphic file (type png)
 <use fs-weak.png>
-Package pdftex.def Info: fs-weak.png  used on input line 1378.
+Package pdftex.def Info: fs-weak.png  used on input line 1468.
 (pdftex.def)             Requested size: 155.01735pt x 155.00989pt.
-<iv-weak.png, id=387, 1204.5pt x 1204.5pt>
+<iv-weak.png, id=437, 1204.5pt x 1204.5pt>
 File: iv-weak.png Graphic file (type png)
 <use iv-weak.png>
-Package pdftex.def Info: iv-weak.png  used on input line 1378.
+Package pdftex.def Info: iv-weak.png  used on input line 1468.
 (pdftex.def)             Requested size: 155.01735pt x 155.00989pt.
- [60
+ [67
 
  <./fs-weak.png> <./iv-weak.png>]
 
-Package mathptmx Warning: There are no bold math fonts on input line 1403.
+Package mathptmx Warning: There are no bold math fonts on input line 1493.
 
-[61
+[68
 
-] [62
+] [69
 
 ]
-<duflo_fs1.png, id=406, 454.69875pt x 378.91562pt>
+<duflo_fs1.png, id=456, 454.69875pt x 378.91562pt>
 File: duflo_fs1.png Graphic file (type png)
 <use duflo_fs1.png>
-Package pdftex.def Info: duflo_fs1.png  used on input line 1429.
+Package pdftex.def Info: duflo_fs1.png  used on input line 1519.
 (pdftex.def)             Requested size: 258.364pt x 215.30768pt.
- [63
+ [70
 
  <./duflo_fs1.png>]
-<duflo_fs2.png, id=413, 457.71pt x 496.85625pt>
+<duflo_fs2.png, id=463, 457.71pt x 496.85625pt>
 File: duflo_fs2.png Graphic file (type png)
 <use duflo_fs2.png>
-Package pdftex.def Info: duflo_fs2.png  used on input line 1434.
+Package pdftex.def Info: duflo_fs2.png  used on input line 1524.
 (pdftex.def)             Requested size: 172.24266pt x 186.97263pt.
- [64
+ [71
 
- <./duflo_fs2.png>] [65
+ <./duflo_fs2.png>] [72
 
 ]
 \tf@nav=\write6
@@ -1781,26 +1827,14 @@ Package pdftex.def Info: duflo_fs2.png  used on input line 1434.
 
 
 (./Chapter7_v1_handout.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Chapter7_v1_handout.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Chapter7_v1_handout.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `Chapter7_v1_handout.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29572 strings out of 478994
- 547750 string characters out of 5858184
- 849946 words of memory out of 5000000
- 46216 multiletter control sequences out of 15000+600000
+ 29755 strings out of 478994
+ 549673 string characters out of 5858184
+ 850278 words of memory out of 5000000
+ 46377 multiletter control sequences out of 15000+600000
  502968 words of font info for 138 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  135i,17n,135p,446b,628s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1823,10 +1857,10 @@ e/2021/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/
 2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-
 dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb>
-Output written on Chapter7_v1_handout.pdf (65 pages, 5113317 bytes).
+Output written on Chapter7_v1_handout.pdf (72 pages, 5391947 bytes).
 PDF statistics:
- 513 PDF objects out of 1000 (max. 8388607)
- 370 compressed objects within 4 object streams
- 133 named destinations out of 1000 (max. 500000)
- 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 567 PDF objects out of 1000 (max. 8388607)
+ 406 compressed objects within 5 object streams
+ 147 named destinations out of 1000 (max. 500000)
+ 195 words of extra memory for PDF output out of 10000 (max. 10000000)
 

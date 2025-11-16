@@ -286,7 +286,7 @@
 			Winning the lottery is not the same as enrolling in Medicaid: \medskip
 			
 			\begin{tabular}{lrr}
-				& Treatment & Control \\ \hline
+				& Winners & Losers \\ \hline
 				Ever on Medicaid & 0.397 & 0.141
 			\end{tabular}
 			
@@ -304,7 +304,7 @@
 	\begin{frame}{The effect of Medicaid enrollement on depression}
 		
 			\begin{tabular}{lrr}
-			& Treatment & Control \\ \hline
+			& Winners & Losers \\ \hline
 			Ever on Medicaid & 0.397 & 0.141 \\
 		   Depression symptoms & 0.306 &  0.329 
 		   \end{tabular}
@@ -683,7 +683,7 @@ We can divide the population into four types of people:
 
 \begin{frame}{Example - Medicaid}
 			\begin{tabular}{lrr}
-	& Treatment & Control \\ \hline
+	& Winners & Losers \\ \hline
 	Ever on Medicaid & 0.397 & 0.141 \\
 	Depression symptoms & 0.306 &  0.329 
 \end{tabular}
@@ -740,7 +740,7 @@ We can divide the population into four types of people:
 
 \begin{frame}{Example - Medicaid}
 	\begin{tabular}{lrr}
-		& Treatment & Control \\ \hline
+		& Winners & Losers \\ \hline
 		Ever on Medicaid & 0.397 & 0.141 \\
 		Depression symptoms & 0.306 &  0.329 
 	\end{tabular}
@@ -1252,6 +1252,96 @@ We can divide the population into four types of people:
 	\includegraphics[width = 0.9 \linewidth]{angrist-2sls}
 \end{frame}
 
+
+\begin{frame}{Martin and Yurukoglu (2017)}
+	
+	\begin{wideitemize}
+		\item
+		Martin and Yurukoglu are interested in the following Q: how does exposure to Fox News (conservative TV channel) affect voting patterns in the US? 
+		
+		\item
+		We could compare places where people watch more Fox News to places where people watch less Fox News. Would that give us a causal effect? \pause
+		 	\begin{itemize}
+		 		\item 
+		 		Probably not! There is likely a strong confounding variable of political preference (people who are more conservative watch more Fox News and vote Republican)
+		 	\end{itemize}
+	 	
+	 	\item
+	 	We need an instrument that is as good as randomly assigned and affects voting patterns only through its impact on Fox News viewership. Any ideas? \pause
+	 	
+	 	\item
+	 	Martin and Yurukoglu propose to use the position of Fox News in the cable channel lineup as an IV
+	 		\begin{itemize}
+	 			\item 
+	 			People watch more Fox News if it appears earlier in the guide
+	 			\item
+	 			Argue that channel lineup was determined by idiosyncratic factors during rollout of cable news in the 1990s
+	 		\end{itemize}
+	\end{wideitemize}
+\end{frame}
+
+
+\begin{frame}{Martin and Yurukoglu's 2SLS Specification}
+	First stage: 
+	$$D_{i} = \pi Z_i + \boldsymbol{\gamma}' \boldsymbol{X}_i + u_i $$
+	where $D_{i}$ is average minutes of Fox News watched per week in Zip code $i$, $\boldsymbol{X}_i$ is a vector of control variables including state or county FEs, the position of MSNBC, and some demographic variables (income, age, race, etc) \medskip
+	
+	Second stage:
+	$$Y_{i} = \beta \hat{D}_i + \boldsymbol{\delta}' \boldsymbol{X}_i + \epsilon_i $$
+	
+	\noindent where $Y_{i}$ is Republican vote share in the 2008 election and $\hat{D}_i$ is the prediction from the first-stage
+\end{frame}
+
+\begin{frame}{Evaluating the assumptions}
+	\begin{wideitemize}
+		\item
+		\textbf{Independence:} \pause Need that Fox News position is as good as random (conditional on observable characteristics). \pause This is the most tenuous: seems plausible, but worry that Fox News might be put earlier in places with higher demand
+		
+		\item
+		\textbf{Exclusion:} \pause Need that Fox News position impacts voting only through Fox News viewership. \pause Seems relatively plausible
+		
+		\item
+		\textbf{Relevance:} \pause Need that cable position impacts Fox News viewership. \pause We'll see that it does
+		
+		\item
+		\textbf{Monotonicity:} \pause Need that being in a lower cable position only increases viewership. \pause Seems plausible, although could be violated if being later increases proximity to other popular channels
+	\end{wideitemize}
+\end{frame}
+
+\begin{frame}{First Stage}
+		\includegraphics[width = 0.9 \linewidth]{my-first-stage}
+		
+		\begin{wideitemize}
+			\item
+			Being lower in the line-up predicts lower Fox News viewership. A 1SD improvement in lineup position corresponds to roughly 2.5 minutes per week more viewership
+		\end{wideitemize}
+\end{frame}
+
+\begin{frame}{Some evidence on independence}
+	
+ 	\includegraphics[width = 0.8 \linewidth]{my-balance}
+	\begin{wideitemize}
+		\item
+		Fox News position is not significantly related to vote share in 1996 (before cable news), and to most (but not all) demographic characteristics
+	\end{wideitemize}
+\end{frame}
+
+\begin{frame}{Validation using satellite viewers}
+		\includegraphics[width=0.7\linewidth]{my-satellite}
+		\begin{wideitemize}
+			\item
+			Fox News position predicts viewership only on cable and not on satellite TV (which has different lineup)
+		\end{wideitemize}
+\end{frame}
+
+
+\begin{frame}{2SLS results}
+	\begin{center}
+		\includegraphics[width=0.9\linewidth]{my-iv}
+	\end{center}
+	
+	A 1SD improvement in channel position increases viewership by about 2.5 minutes/wk, which is estimated to move vote share by 0.3 percentage pts
+\end{frame}
 
 \begin{frame}{Inference for 2SLS}
 	\begin{wideitemize}
