@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  16 NOV 2025 18:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  23 NOV 2025 21:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1676,6 +1676,54 @@ Package pdftex.def Info: dell-vc.png  used on input line 775.
 
  <./dell-vc.png>] [36
 
+] [37
+
+]
+<zimmerman-bunching.pdf, id=264, 594.22pt x 742.775pt>
+File: zimmerman-bunching.pdf Graphic file (type pdf)
+<use zimmerman-bunching.pdf>
+Package pdftex.def Info: zimmerman-bunching.pdf  used on input line 817.
+(pdftex.def)             Requested size: 172.24266pt x 215.30856pt.
+
+Overfull \vbox (0.6952pt too high) detected at line 817
+ []
+
+[38
+
+ <./zimmerman-bunching.pdf>]
+<zimmerman-balance.pdf, id=274, 756.8275pt x 896.34875pt>
+File: zimmerman-balance.pdf Graphic file (type pdf)
+<use zimmerman-balance.pdf>
+Package pdftex.def Info: zimmerman-balance.pdf  used on input line 824.
+(pdftex.def)             Requested size: 172.24266pt x 203.99489pt.
+ [39
+
+ <./zimmerman-balance.pdf>]
+<zimmerman-fs.pdf, id=284, 1455.4375pt x 696.6025pt>
+File: zimmerman-fs.pdf Graphic file (type pdf)
+<use zimmerman-fs.pdf>
+Package pdftex.def Info: zimmerman-fs.pdf  used on input line 828.
+(pdftex.def)             Requested size: 275.58931pt x 131.89879pt.
+ [40
+
+ <./zimmerman-fs.pdf>]
+<zimmerman-rf.pdf, id=294, 971.63pt x 623.32875pt>
+File: zimmerman-rf.pdf Graphic file (type pdf)
+<use zimmerman-rf.pdf>
+Package pdftex.def Info: zimmerman-rf.pdf  used on input line 832.
+(pdftex.def)             Requested size: 275.58931pt x 176.79453pt.
+ [41
+
+ <./zimmerman-rf.pdf>]
+<zimmerman-late.pdf, id=304, 953.5625pt x 427.5975pt>
+File: zimmerman-late.pdf Graphic file (type pdf)
+<use zimmerman-late.pdf>
+Package pdftex.def Info: zimmerman-late.pdf  used on input line 847.
+(pdftex.def)             Requested size: 241.13867pt x 108.13225pt.
+ [42
+
+ <./zimmerman-late.pdf>] [43
+
 ]
 \tf@nav=\write6
 \openout6 = `Chapter8_v1_handout.nav'.
@@ -1686,15 +1734,16 @@ Package pdftex.def Info: dell-vc.png  used on input line 775.
 \tf@snm=\write8
 \openout8 = `Chapter8_v1_handout.snm'.
 
- (./Chapter8_v1_handout.aux)
+
+(./Chapter8_v1_handout.aux)
 Package rerunfilecheck Info: File `Chapter8_v1_handout.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29538 strings out of 478994
- 546949 string characters out of 5858184
+ 29582 strings out of 478994
+ 547855 string characters out of 5858184
  849230 words of memory out of 5000000
- 46244 multiletter control sequences out of 15000+600000
+ 46274 multiletter control sequences out of 15000+600000
  493210 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  135i,12n,135p,446b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1712,10 +1761,10 @@ ublic/lm/lmssbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/lm
 fb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam
 10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1095
 .pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb>
-Output written on Chapter8_v1_handout.pdf (36 pages, 1840878 bytes).
+Output written on Chapter8_v1_handout.pdf (43 pages, 2212710 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 219 compressed objects within 3 object streams
- 73 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 387 PDF objects out of 1000 (max. 8388607)
+ 263 compressed objects within 3 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 
