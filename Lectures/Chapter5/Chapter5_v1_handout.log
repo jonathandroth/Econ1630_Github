@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  22 OCT 2025 13:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  20 OCT 2026 08:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1929,10 +1929,10 @@ Package rerunfilecheck Info: File `Chapter5_v1_handout.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29948 strings out of 478994
- 553923 string characters out of 5858184
+ 29966 strings out of 478994
+ 554085 string characters out of 5858184
  851105 words of memory out of 5000000
- 46532 multiletter control sequences out of 15000+600000
+ 46550 multiletter control sequences out of 15000+600000
  566268 words of font info for 197 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  135i,14n,135p,446b,680s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1959,7 +1959,7 @@ amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
 lic/cm-super/sftt1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/s
 ymbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.
 pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Chapter5_v1_handout.pdf (87 pages, 3130725 bytes).
+Output written on Chapter5_v1_handout.pdf (87 pages, 3131120 bytes).
 PDF statistics:
  668 PDF objects out of 1000 (max. 8388607)
  492 compressed objects within 5 object streams

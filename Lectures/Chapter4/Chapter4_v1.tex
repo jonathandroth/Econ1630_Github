@@ -881,9 +881,9 @@ Taking means, $\bar{Y} = \alpha + \bar{X} \beta + \bar{\epsilon}$. \pause So $Y_
 	Claim: if CEF is not linear, then OLS still gives us the ``best linear approximation'' to the CEF 
 	\pause 
 	\item
-	 What we mean by this is that the $\alpha,\beta$ of OLS minimize
+	 What we mean by this is that the $\alpha,\beta$ we solved for earlier (the ``population'' regression coefficients) solve
 	 
-	 $$min_{\alpha,\beta} E[ (E[Y|X]  - (\alpha + \beta X) )^2 ]$$
+	 $$min_{a,b} E[ (E[Y|X]  - (a + b X) )^2 ]$$
 	 
 	 \pause
 	 That is, we get the linear function that's ``closest'' to the CEF in terms of mean-squared error
@@ -930,28 +930,28 @@ Taking means, $\bar{Y} = \alpha + \bar{X} \beta + \bar{\epsilon}$. \pause So $Y_
 \begin{frame}{Proof of OLS as Best Approximation}
 	\begin{wideitemize}
 		\item 
-		We solved for the $\alpha,\beta$ to minimize $E[  (Y - (\alpha + \beta X))^2 ]$.
+		We solved for the $\alpha,\beta$ to minimize $E[  (Y - (a + b X))^2 ]$.
 		
 		\pause
 		\item
 		Let $\mu(x) = E[Y|X=x]$. Then we have \pause
 		\begin{align*}
-			E[  (Y - (\alpha + \beta X))^2 ]  &= E[ (Y - \mu(X) + \mu(X) -  (\alpha + \beta X))^2   ] \pause{} \\
-			&= E[ (Y - \mu(X) )^2 ] + E[(\mu(X) -  (\alpha + \beta X))^2   ]   \\ &+ 2E[ (Y- \mu(X)) (\mu(X)- (\alpha + \beta X))  ]
+			E[  (Y - (a + b X))^2 ]  &= E[ (Y - \mu(X) + \mu(X) -  (a + b X))^2   ] \pause{} \\
+			&= E[ (Y - \mu(X) )^2 ] + E[(\mu(X) -  (a + b X))^2   ]   \\ &+ 2E[ (Y- \mu(X)) (\mu(X)- (a + b X))  ]
 		\end{align*}
 		
 		\pause
 		\item
 		By the LIE, 
 		\begin{align*}
-			&E[ (Y- \mu(X)) (\mu(X)-(\alpha + \beta X))  ] = \pause{} \\& E[  E[(Y- \mu(X)) (\mu(X)-(\alpha + \beta X)) |X ]    ] = \pause{}\\
-			&E[(\mu(X)-(\alpha + \beta X))  \underbrace{ E[Y- \mu(X) | X] }_{=0}] = 0
+			&E[ (Y- \mu(X)) (\mu(X)-(a + b X))  ] = \pause{} \\& E[  E[(Y- \mu(X)) (\mu(X)-(a + b X)) |X ]    ] = \pause{}\\
+			&E[(\mu(X)-(a + b X))  \underbrace{ E[Y- \mu(X) | X] }_{=0}] = 0
 		\end{align*} 
 		
 		\item
-		Hence, $E[  (Y - (\alpha + \beta X))^2 ] = [ (Y - \mu(X) )^2 ] + E[\mu(X) -  (\alpha + \beta X))^2   ] .$
+		Hence, $E[  (Y - (a + b X))^2 ] = [ (Y - \mu(X) )^2 ] + E[\mu(X) -  (a + b X))^2   ] .$
 		
-		\noindent But the first term doesn't depend on $\beta$. So minimizing $E[  (Y - (\alpha + \beta X))^2 ]$ is the same as minimizing $E[\mu(X) -  (\alpha + \beta X))^2   ]$
+		\noindent But the first term doesn't depend on $b$. So minimizing $E[  (Y - (a + b X))^2 ]$ is the same as minimizing $E[\mu(X) -  (a + b X))^2   ]$
 		
 	\end{wideitemize}
 \end{frame}
