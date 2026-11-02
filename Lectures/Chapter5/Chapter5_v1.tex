@@ -2065,7 +2065,7 @@ Probability of finding at least one subgroup with a significant effect with $K$ 
 	We can also use an $F$-test for this problem, we just need to account for the correlation in the coefficients
 	
 	\item
-	We showed in earlier classes that  $\sqrt{N}(\hat\beta - \beta_0) \to_d N(0,\boldsymbol{\Sigma})$. To test the null $H_0: \beta = \beta_0$, we then use  $F = \sqrt{N} \hat{\boldsymbol{\Sigma}}^{-\frac{1}{2}} (\hat\beta - \beta_0)$ 
+	We showed in earlier classes that  $\sqrt{N}(\hat\beta - \beta_0) \to_d N(0,\boldsymbol{\Sigma})$. To test the null $H_0: \beta = \beta_0$, we then use  $F = N (\hat\beta - \beta_0)' \hat{\boldsymbol{\Sigma}}^{-1} (\hat\beta - \beta_0)$ 
 	
 	\item
 	This is implemented with the $\texttt{test}$ function in Stata. E.g., $\texttt{test age agesq}$ tests the null that the coefficients on age and age-squared are both zero (so wages don't depend on age)

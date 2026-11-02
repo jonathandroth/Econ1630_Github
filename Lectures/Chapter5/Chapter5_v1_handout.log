@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  20 OCT 2026 08:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.13)  2 NOV 2026 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1901,7 +1901,7 @@ File: logwages-quadratic.png Graphic file (type png)
 Package pdftex.def Info: logwages-quadratic.png  used on input line 2075.
 (pdftex.def)             Requested size: 96.77657pt x 70.39374pt.
 
-Overfull \vbox (9.54533pt too high) detected at line 2075
+Overfull \vbox (7.70589pt too high) detected at line 2075
  []
 
 [86
@@ -1959,7 +1959,7 @@ amsfonts/symbols/msam10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/pub
 lic/cm-super/sftt1095.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/s
 ymbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.
 pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Chapter5_v1_handout.pdf (87 pages, 3131120 bytes).
+Output written on Chapter5_v1_handout.pdf (87 pages, 3131072 bytes).
 PDF statistics:
  668 PDF objects out of 1000 (max. 8388607)
  492 compressed objects within 5 object streams
